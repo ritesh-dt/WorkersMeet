@@ -1,0 +1,2378 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: jobsapp_job
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 202, in _get_response
+    response = response.render()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 1303, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: jobsapp_job
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: jobsapp_job
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 202, in _get_response
+    response = response.render()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 1303, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: jobsapp_job
+"GET / HTTP/1.1" 500 219013
+"GET / HTTP/1.1" 500 219013
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5180
+"GET /favicon.ico HTTP/1.1" 404 5180
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: jobsapp_job
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 202, in _get_response
+    response = response.render()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 1303, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: jobsapp_job
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: jobsapp_job
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 202, in _get_response
+    response = response.render()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 1303, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\models\sql\compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\db\backends\sqlite3\base.py", line 413, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: jobsapp_job
+"GET / HTTP/1.1" 500 219020
+"GET / HTTP/1.1" 500 219020
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31396
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31396
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/css/style.default.css HTTP/1.1" 200 57176
+"GET /static/css/style.default.css HTTP/1.1" 200 57176
+"GET /static/css/custom.css HTTP/1.1" 200 71
+"GET /static/css/custom.css HTTP/1.1" 200 71
+"GET /static/images/logo_5.png HTTP/1.1" 304 0
+"GET /static/images/logo_5.png HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/yash_img.png HTTP/1.1" 304 0
+"GET /static/images/yash_img.png HTTP/1.1" 304 0
+"GET /static/img/meeting.jpg HTTP/1.1" 200 144248
+"GET /static/img/meeting.jpg HTTP/1.1" 200 144248
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 5180
+"GET /favicon.png HTTP/1.1" 404 5180
+"GET /jobs HTTP/1.1" 200 11567
+"GET /jobs HTTP/1.1" 200 11567
+"GET /about_us HTTP/1.1" 200 15608
+"GET /about_us HTTP/1.1" 200 15608
+"GET /static/images/blank.jpeg HTTP/1.1" 200 5167
+"GET /static/images/blank.jpeg HTTP/1.1" 200 5167
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /static/images/our_team.png HTTP/1.1" 200 332519
+"GET /static/images/our_team.png HTTP/1.1" 200 332519
+"GET /about_us HTTP/1.1" 200 15608
+"GET /about_us HTTP/1.1" 200 15608
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 14460
+"GET /services HTTP/1.1" 200 14460
+"GET /static/images/hero_1.jpg HTTP/1.1" 304 0
+"GET /static/images/hero_1.jpg HTTP/1.1" 304 0
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employee/register HTTP/1.1" 200 12449
+Not Found: /employee/favicon.png
+Not Found: /employee/favicon.png
+"GET /employee/favicon.png HTTP/1.1" 404 5541
+"GET /employee/favicon.png HTTP/1.1" 404 5541
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11517
+Not Found: /employer/favicon.png
+Not Found: /employer/favicon.png
+"GET /employer/favicon.png HTTP/1.1" 404 5207
+"GET /employer/favicon.png HTTP/1.1" 404 5207
+"GET /services HTTP/1.1" 200 14460
+"GET /services HTTP/1.1" 200 14460
+"GET /static/images/hero_1.jpg HTTP/1.1" 304 0
+"GET /static/images/hero_1.jpg HTTP/1.1" 304 0
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+Internal Server Error: /about_us
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hp\Downloads\end_sem_review (4)\end_sem_review\django-job-portal-master\accounts\views.py", line 125, in about_us
+    return render(request, "jobs/about_us.html", {})
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 413: 'endblock'. Did you forget to register or load this tag?
+Internal Server Error: /about_us
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hp\Downloads\end_sem_review (4)\end_sem_review\django-job-portal-master\accounts\views.py", line 125, in about_us
+    return render(request, "jobs/about_us.html", {})
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 270, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 413: 'endblock'. Did you forget to register or load this tag?
+"GET /about_us HTTP/1.1" 500 164730
+"GET /about_us HTTP/1.1" 500 164730
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+"GET /static/images/person_11.jpg HTTP/1.1" 200 10264
+"GET /static/images/person_11.jpg HTTP/1.1" 200 10264
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /static/images/varad_1.jpg HTTP/1.1" 200 14006
+"GET /static/images/varad_1.jpg HTTP/1.1" 200 14006
+"GET /static/images/varad_1.jpg HTTP/1.1" 304 0
+"GET /static/images/varad_1.jpg HTTP/1.1" 304 0
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET /jobs HTTP/1.1" 200 11567
+"GET /jobs HTTP/1.1" 200 11567
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employee/register HTTP/1.1" 200 12449
+Not Found: /employee/om
+Not Found: /employee/om
+"GET /employee/om HTTP/1.1" 404 5514
+"GET /employee/om HTTP/1.1" 404 5514
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /login HTTP/1.1" 200 9903
+"GET /login HTTP/1.1" 200 9903
+"POST /login HTTP/1.1" 200 10305
+"POST /login HTTP/1.1" 200 10305
+"POST /login HTTP/1.1" 200 10305
+"POST /login HTTP/1.1" 200 10305
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13918
+"GET / HTTP/1.1" 200 13918
+"GET / HTTP/1.1" 200 13914
+"GET / HTTP/1.1" 200 13914
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+Internal Server Error: /about_us
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hp\Downloads\end_sem_review (4)\end_sem_review\django-job-portal-master\accounts\views.py", line 125, in about_us
+    return render(request, "jobs/about_us.html", {})
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+Internal Server Error: /about_us
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\hp\Downloads\end_sem_review (4)\end_sem_review\django-job-portal-master\accounts\views.py", line 125, in about_us
+    return render(request, "jobs/about_us.html", {})
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python38\lib\site-packages\django\urls\resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+"GET /about_us HTTP/1.1" 500 147064
+"GET /about_us HTTP/1.1" 500 147064
+"GET /about_us HTTP/1.1" 200 14566
+"GET /about_us HTTP/1.1" 200 14566
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /employee/register HTTP/1.1" 200 12113
+"GET /employee/register HTTP/1.1" 200 12113
+"GET / HTTP/1.1" 200 13570
+"GET / HTTP/1.1" 200 13570
+"GET / HTTP/1.1" 200 13570
+"GET / HTTP/1.1" 200 13570
+"GET /about_us HTTP/1.1" 200 14566
+"GET /about_us HTTP/1.1" 200 14566
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /employee/register HTTP/1.1" 200 12113
+"GET /employee/register HTTP/1.1" 200 12113
+"GET /employee/register HTTP/1.1" 200 12588
+"GET /employee/register HTTP/1.1" 200 12588
+"GET / HTTP/1.1" 200 14045
+"GET / HTTP/1.1" 200 14045
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET /search?position=&location= HTTP/1.1" 200 10030
+"GET /search?position=&location= HTTP/1.1" 200 10030
+"GET /jobs HTTP/1.1" 200 11567
+"GET /jobs HTTP/1.1" 200 11567
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /login HTTP/1.1" 200 9903
+"GET /login HTTP/1.1" 200 9903
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/images/logo_5.png HTTP/1.1" 304 0
+"GET /static/images/logo_5.png HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/person_2.jpg HTTP/1.1" 304 0
+"GET /static/images/person_2.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/varad_1.jpg HTTP/1.1" 200 14006
+"GET /static/images/varad_1.jpg HTTP/1.1" 200 14006
+"GET /static/images/yash_img.png HTTP/1.1" 200 171154
+"GET /static/images/yash_img.png HTTP/1.1" 200 171154
+"GET /static/images/dipak_!.jpg HTTP/1.1" 200 14418
+"GET /static/images/dipak_!.jpg HTTP/1.1" 200 14418
+"GET /static/img/home.jpg HTTP/1.1" 404 1662
+"GET /static/img/home.jpg HTTP/1.1" 404 1662
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 5180
+"GET /favicon.png HTTP/1.1" 404 5180
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/images/person_2.jpg HTTP/1.1" 304 0
+"GET /static/images/person_2.jpg HTTP/1.1" 304 0
+"GET /static/img/home.jpg HTTP/1.1" 200 8484
+"GET /static/img/home.jpg HTTP/1.1" 200 8484
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /jobs HTTP/1.1" 200 11567
+"GET /jobs HTTP/1.1" 200 11567
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+Not Found: /employee/favicon.png
+Not Found: /employee/favicon.png
+"GET /employee/favicon.png HTTP/1.1" 404 5541
+"GET /employee/favicon.png HTTP/1.1" 404 5541
+"GET / HTTP/1.1" 200 13906
+"GET / HTTP/1.1" 200 13906
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/images/person_2.jpg HTTP/1.1" 304 0
+"GET /static/images/person_2.jpg HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/person_11.jpg HTTP/1.1" 200 10264
+"GET /static/images/person_11.jpg HTTP/1.1" 200 10264
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /static/images/our_team.png HTTP/1.1" 304 0
+"GET /static/images/our_team.png HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1910
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1910
+"GET /static/admin/css/base.css HTTP/1.1" 200 16378
+"GET /static/admin/css/base.css HTTP/1.1" 200 16378
+"GET /static/admin/css/login.css HTTP/1.1" 200 1233
+"GET /static/admin/css/login.css HTTP/1.1" 200 1233
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5180
+"GET /favicon.ico HTTP/1.1" 404 5180
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+Not Found: /employer/favicon.png
+Not Found: /employer/favicon.png
+"GET /employer/favicon.png HTTP/1.1" 404 5207
+"GET /employer/favicon.png HTTP/1.1" 404 5207
+"POST /employer/register HTTP/1.1" 200 12099
+"POST /employer/register HTTP/1.1" 200 12099
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"POST /employer/register HTTP/1.1" 302 0
+"POST /employer/register HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 9903
+"GET /login HTTP/1.1" 200 9903
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"POST /login HTTP/1.1" 302 0
+"POST /login HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 14288
+"GET / HTTP/1.1" 200 14288
+"GET /static/images/company-1.png HTTP/1.1" 200 3494
+"GET /static/images/company-1.png HTTP/1.1" 200 3494
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/person_2.jpg HTTP/1.1" 304 0
+"GET /static/images/person_2.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /employer/jobs/create HTTP/1.1" 200 16676
+"GET /employer/jobs/create HTTP/1.1" 200 16676
+"GET /static/vendor/bootstrap-select/css/bootstrap-select.min.css HTTP/1.1" 200 9777
+"GET /static/vendor/bootstrap-select/css/bootstrap-select.min.css HTTP/1.1" 200 9777
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+Not Found: /employer/jobs/favicon.png
+Not Found: /employer/jobs/favicon.png
+"GET /employer/jobs/favicon.png HTTP/1.1" 404 5222
+"GET /employer/jobs/favicon.png HTTP/1.1" 404 5222
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /jobs HTTP/1.1" 200 11567
+"GET /jobs HTTP/1.1" 200 11567
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /jobs HTTP/1.1" 200 11567
+"GET /jobs HTTP/1.1" 200 11567
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /jobs HTTP/1.1" 200 11567
+"GET /jobs HTTP/1.1" 200 11567
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /login HTTP/1.1" 200 9903
+"GET /login HTTP/1.1" 200 9903
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"POST /login HTTP/1.1" 302 0
+"POST /login HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 14288
+"GET / HTTP/1.1" 200 14288
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/images/person_2.jpg HTTP/1.1" 304 0
+"GET /static/images/person_2.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /employer/jobs/create HTTP/1.1" 200 16681
+"GET /employer/jobs/create HTTP/1.1" 200 16681
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /employer/jobs/create HTTP/1.1" 200 16510
+"GET /employer/jobs/create HTTP/1.1" 200 16510
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /employer/jobs/create HTTP/1.1" 200 16504
+"GET /employer/jobs/create HTTP/1.1" 200 16504
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /employer/jobs/create HTTP/1.1" 200 16653
+"GET /employer/jobs/create HTTP/1.1" 200 16653
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"POST /employer/jobs/create HTTP/1.1" 200 18079
+"POST /employer/jobs/create HTTP/1.1" 200 18079
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"POST /employer/jobs/create HTTP/1.1" 302 0
+"POST /employer/jobs/create HTTP/1.1" 302 0
+"GET /employer/dashboard/ HTTP/1.1" 200 13446
+"GET /employer/dashboard/ HTTP/1.1" 200 13446
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/stickyfill.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/js/custom.js HTTP/1.1" 304 0
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 404 1735
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/line-icons/fonts/icomoon.woff?f14h0d HTTP/1.1" 404 1738
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 404 1726
+Not Found: /employer/dashboard/favicon.png
+Not Found: /employer/dashboard/favicon.png
+"GET /employer/dashboard/favicon.png HTTP/1.1" 404 6117
+"GET /employer/dashboard/favicon.png HTTP/1.1" 404 6117
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+"GET /static/fonts/icomoon/fonts/icomoon.woff?10si43 HTTP/1.1" 404 1729
+F:\SocioTech Projecy\WorkersMeeT\end_sem_review\Workersmeet.com\jobsapp\forms.py changed, reloading.
+F:\SocioTech Projecy\WorkersMeeT\end_sem_review\Workersmeet.com\jobsapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 17124
+"GET / HTTP/1.1" 200 17124
+"GET /jobs HTTP/1.1" 200 12884
+"GET /jobs HTTP/1.1" 200 12884
+"GET / HTTP/1.1" 200 17124
+"GET / HTTP/1.1" 200 17124
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+"GET /static/images/person_11.jpg HTTP/1.1" 200 10264
+"GET /static/images/person_11.jpg HTTP/1.1" 200 10264
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /login HTTP/1.1" 200 9903
+"GET /login HTTP/1.1" 200 9903
+"POST /login HTTP/1.1" 200 10305
+"POST /login HTTP/1.1" 200 10305
+"GET / HTTP/1.1" 200 17124
+"GET / HTTP/1.1" 200 17124
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET / HTTP/1.1" 200 17124
+"GET / HTTP/1.1" 200 17124
+"GET /jobs HTTP/1.1" 200 12884
+"GET /jobs HTTP/1.1" 200 12884
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17124
+"GET / HTTP/1.1" 200 17124
+"GET /jobs HTTP/1.1" 200 12884
+"GET /jobs HTTP/1.1" 200 12884
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employee/register HTTP/1.1" 200 12449
+Not Found: /employee/favicon.png
+Not Found: /employee/favicon.png
+"GET /employee/favicon.png HTTP/1.1" 404 5541
+"GET /employee/favicon.png HTTP/1.1" 404 5541
+"GET /login HTTP/1.1" 200 9903
+"GET /login HTTP/1.1" 200 9903
+"GET / HTTP/1.1" 200 17124
+"GET / HTTP/1.1" 200 17124
+"GET /jobs HTTP/1.1" 200 12884
+"GET /jobs HTTP/1.1" 200 12884
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11517
+Not Found: /employer/favicon.png
+Not Found: /employer/favicon.png
+"GET /employer/favicon.png HTTP/1.1" 404 5207
+"GET /employer/favicon.png HTTP/1.1" 404 5207
+"GET / HTTP/1.1" 200 17124
+"GET / HTTP/1.1" 200 17124
+"GET /jobs/1 HTTP/1.1" 200 11460
+"GET /jobs/1 HTTP/1.1" 200 11460
+"POST /apply-job/1 HTTP/1.1" 302 0
+"POST /apply-job/1 HTTP/1.1" 302 0
+"GET /login?next=/apply-job/1 HTTP/1.1" 200 9903
+"GET /login?next=/apply-job/1 HTTP/1.1" 200 9903
+"GET /jobs/1 HTTP/1.1" 200 11460
+"GET /jobs/1 HTTP/1.1" 200 11460
+"GET / HTTP/1.1" 200 17124
+"GET / HTTP/1.1" 200 17124
+"GET /jobs HTTP/1.1" 200 12884
+"GET /jobs HTTP/1.1" 200 12884
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /accounts/login/
+Not Found: /accounts/login/
+"GET /accounts/login/ HTTP/1.1" 404 5192
+"GET /accounts/login/ HTTP/1.1" 404 5192
+"GET / HTTP/1.1" 200 17126
+"GET / HTTP/1.1" 200 17126
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/img/featured1.jpg HTTP/1.1" 304 0
+"GET /static/img/featured1.jpg HTTP/1.1" 304 0
+"GET /static/images/logo_5.png HTTP/1.1" 304 0
+"GET /static/images/logo_5.png HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/img/company-1.png HTTP/1.1" 304 0
+"GET /static/img/company-1.png HTTP/1.1" 304 0
+"GET /static/images/yash_img.png HTTP/1.1" 200 171154
+"GET /static/images/yash_img.png HTTP/1.1" 200 171154
+"GET /static/images/varad_1.jpg HTTP/1.1" 200 14006
+"GET /static/images/varad_1.jpg HTTP/1.1" 200 14006
+"GET /static/img/meeting.jpg HTTP/1.1" 404 1671
+"GET /static/img/meeting.jpg HTTP/1.1" 404 1671
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 5180
+"GET /favicon.png HTTP/1.1" 404 5180
+"GET / HTTP/1.1" 200 17126
+"GET / HTTP/1.1" 200 17126
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/img/meeting.jpg HTTP/1.1" 404 1671
+"GET /static/img/meeting.jpg HTTP/1.1" 404 1671
+"GET /jobs HTTP/1.1" 200 12886
+"GET /jobs HTTP/1.1" 200 12886
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/person_11.jpg HTTP/1.1" 304 0
+"GET /static/images/person_11.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/our_team.png HTTP/1.1" 304 0
+"GET /static/images/our_team.png HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employee/register HTTP/1.1" 200 12449
+Not Found: /employee/favicon.png
+Not Found: /employee/favicon.png
+"GET /employee/favicon.png HTTP/1.1" 404 5541
+"GET /employee/favicon.png HTTP/1.1" 404 5541
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11517
+Not Found: /employer/favicon.png
+Not Found: /employer/favicon.png
+"GET /employer/favicon.png HTTP/1.1" 404 5207
+"GET /employer/favicon.png HTTP/1.1" 404 5207
+"GET / HTTP/1.1" 200 17126
+"GET / HTTP/1.1" 200 17126
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/img/meeting.jpg HTTP/1.1" 404 1671
+"GET /static/img/meeting.jpg HTTP/1.1" 404 1671
+"GET / HTTP/1.1" 200 17128
+"GET / HTTP/1.1" 200 17128
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /jobs HTTP/1.1" 200 12886
+"GET /jobs HTTP/1.1" 200 12886
+"GET / HTTP/1.1" 200 17128
+"GET / HTTP/1.1" 200 17128
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11517
+"GET / HTTP/1.1" 200 17209
+"GET / HTTP/1.1" 200 17209
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET /jobs HTTP/1.1" 200 12886
+"GET /jobs HTTP/1.1" 200 12886
+"GET /jobs HTTP/1.1" 200 12962
+"GET /jobs HTTP/1.1" 200 12962
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET /jobs HTTP/1.1" 200 12962
+"GET /jobs HTTP/1.1" 200 12962
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET / HTTP/1.1" 200 17209
+"GET / HTTP/1.1" 200 17209
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET /search?position=&location= HTTP/1.1" 200 11324
+"GET /search?position=&location= HTTP/1.1" 200 11324
+"GET /search?position=&location= HTTP/1.1" 200 11400
+"GET /search?position=&location= HTTP/1.1" 200 11400
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET /search?position=&location= HTTP/1.1" 200 11405
+"GET /search?position=&location= HTTP/1.1" 200 11405
+"GET /static/images/search.jpg HTTP/1.1" 200 258494
+"GET /static/images/search.jpg HTTP/1.1" 200 258494
+"GET / HTTP/1.1" 200 17212
+"GET / HTTP/1.1" 200 17212
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/home.jpg HTTP/1.1" 200 8484
+"GET /static/images/home.jpg HTTP/1.1" 200 8484
+"GET /jobs HTTP/1.1" 200 12967
+"GET /jobs HTTP/1.1" 200 12967
+"GET /jobs?profession=&location= HTTP/1.1" 200 12967
+"GET /jobs?profession=&location= HTTP/1.1" 200 12967
+"GET /jobs?profession=&location= HTTP/1.1" 200 13019
+"GET /jobs?profession=&location= HTTP/1.1" 200 13019
+"GET / HTTP/1.1" 200 17212
+"GET / HTTP/1.1" 200 17212
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 13019
+"GET /jobs HTTP/1.1" 200 13019
+"GET /jobs?profession=&location= HTTP/1.1" 200 13019
+"GET /jobs?profession=&location= HTTP/1.1" 200 13019
+"GET /jobs?profession=&location= HTTP/1.1" 200 12886
+"GET /jobs?profession=&location= HTTP/1.1" 200 12886
+"GET /jobs HTTP/1.1" 200 12886
+"GET /jobs HTTP/1.1" 200 12886
+"GET / HTTP/1.1" 200 17212
+"GET / HTTP/1.1" 200 17212
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17214
+"GET / HTTP/1.1" 200 17214
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17225
+"GET / HTTP/1.1" 200 17225
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17214
+"GET / HTTP/1.1" 200 17214
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17222
+"GET / HTTP/1.1" 200 17222
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17214
+"GET / HTTP/1.1" 200 17214
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 12886
+"GET /jobs HTTP/1.1" 200 12886
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /login HTTP/1.1" 200 9903
+"GET /login HTTP/1.1" 200 9903
+"GET /login HTTP/1.1" 200 9903
+"GET /login HTTP/1.1" 200 9903
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET / HTTP/1.1" 200 17214
+"GET / HTTP/1.1" 200 17214
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 12886
+"GET /jobs HTTP/1.1" 200 12886
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /jobs HTTP/1.1" 200 12886
+"GET /jobs HTTP/1.1" 200 12886
+"GET / HTTP/1.1" 200 17214
+"GET / HTTP/1.1" 200 17214
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 12886
+"GET /jobs HTTP/1.1" 200 12886
+"GET /jobs HTTP/1.1" 200 12884
+"GET /jobs HTTP/1.1" 200 12884
+"GET / HTTP/1.1" 200 17212
+"GET / HTTP/1.1" 200 17212
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /search?position=&location= HTTP/1.1" 200 11403
+"GET /search?position=&location= HTTP/1.1" 200 11403
+"GET /search?position=&location= HTTP/1.1" 200 11401
+"GET /search?position=&location= HTTP/1.1" 200 11401
+"GET /search?position=&location= HTTP/1.1" 200 11399
+"GET /search?position=&location= HTTP/1.1" 200 11399
+"GET /static/images/ho.jpg HTTP/1.1" 404 1665
+"GET /static/images/ho.jpg HTTP/1.1" 404 1665
+"GET /search?position=&location= HTTP/1.1" 200 11322
+"GET /search?position=&location= HTTP/1.1" 200 11322
+"GET /jobs HTTP/1.1" 200 12885
+"GET /jobs HTTP/1.1" 200 12885
+"GET /about_us HTTP/1.1" 200 14902
+"GET /about_us HTTP/1.1" 200 14902
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 13197
+"GET /services HTTP/1.1" 200 13197
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employee/register HTTP/1.1" 200 12449
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11517
+"GET /employer/register HTTP/1.1" 200 11536
+"GET /employer/register HTTP/1.1" 200 11536
+"GET / HTTP/1.1" 200 17232
+"GET / HTTP/1.1" 200 17232
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /about_us HTTP/1.1" 200 14921
+"GET /about_us HTTP/1.1" 200 14921
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /jobs HTTP/1.1" 200 12904
+"GET /jobs HTTP/1.1" 200 12904
+"GET /services HTTP/1.1" 200 13216
+"GET /services HTTP/1.1" 200 13216
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /employee/register HTTP/1.1" 200 12468
+"GET /employee/register HTTP/1.1" 200 12468
+"GET /employer/register HTTP/1.1" 200 11536
+"GET /employer/register HTTP/1.1" 200 11536
+"GET / HTTP/1.1" 200 17232
+"GET / HTTP/1.1" 200 17232
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17232
+"GET / HTTP/1.1" 200 17232
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17232
+"GET / HTTP/1.1" 200 17232
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /search?position=&location= HTTP/1.1" 200 11655
+"GET /search?position=&location= HTTP/1.1" 200 11655
+"GET /static/images/hero_1.jpg HTTP/1.1" 304 0
+"GET /static/images/hero_1.jpg HTTP/1.1" 304 0
+"GET /search?position=&location= HTTP/1.1" 200 11655
+"GET /search?position=&location= HTTP/1.1" 200 11655
+"GET / HTTP/1.1" 200 17232
+"GET / HTTP/1.1" 200 17232
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17228
+"GET / HTTP/1.1" 200 17228
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET / HTTP/1.1" 200 17228
+"GET / HTTP/1.1" 200 17228
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET /static/images/2.jpg HTTP/1.1" 404 1662
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/Search.jpg HTTP/1.1" 200 258494
+"GET /static/images/Search.jpg HTTP/1.1" 200 258494
+"GET /search?position=&location= HTTP/1.1" 200 11652
+"GET /search?position=&location= HTTP/1.1" 200 11652
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET /about_us HTTP/1.1" 200 14921
+"GET /about_us HTTP/1.1" 200 14921
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /search?position=&location= HTTP/1.1" 200 11343
+"GET /search?position=&location= HTTP/1.1" 200 11343
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET /about_us HTTP/1.1" 200 14921
+"GET /about_us HTTP/1.1" 200 14921
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 13216
+"GET /services HTTP/1.1" 200 13216
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /employee/register HTTP/1.1" 200 12468
+"GET /employee/register HTTP/1.1" 200 12468
+"GET /employer/register HTTP/1.1" 200 11536
+"GET /employer/register HTTP/1.1" 200 11536
+"GET /employee/register HTTP/1.1" 200 12468
+"GET /employee/register HTTP/1.1" 200 12468
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET /about_us HTTP/1.1" 200 14921
+"GET /about_us HTTP/1.1" 200 14921
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /search?position=&location= HTTP/1.1" 200 11419
+"GET /search?position=&location= HTTP/1.1" 200 11419
+"GET /static/images/4.jpg HTTP/1.1" 200 136847
+"GET /static/images/4.jpg HTTP/1.1" 200 136847
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs?profession=&location= HTTP/1.1" 200 12905
+"GET /jobs?profession=&location= HTTP/1.1" 200 12905
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /search?position=&location= HTTP/1.1" 200 11419
+"GET /search?position=&location= HTTP/1.1" 200 11419
+"GET /static/images/4.jpg HTTP/1.1" 304 0
+"GET /static/images/4.jpg HTTP/1.1" 304 0
+"GET /about_us HTTP/1.1" 200 14921
+"GET /about_us HTTP/1.1" 200 14921
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs HTTP/1.1" 200 12905
+"GET /jobs?profession=&location= HTTP/1.1" 200 12905
+"GET /jobs?profession=&location= HTTP/1.1" 200 12905
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /search?position=&location= HTTP/1.1" 200 11419
+"GET /search?position=&location= HTTP/1.1" 200 11419
+"GET /static/images/4.jpg HTTP/1.1" 304 0
+"GET /static/images/4.jpg HTTP/1.1" 304 0
+"GET /search?position=&location= HTTP/1.1" 200 11419
+"GET /search?position=&location= HTTP/1.1" 200 11419
+"GET /static/images/4.jpg HTTP/1.1" 304 0
+"GET /static/images/4.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 12980
+"GET /jobs HTTP/1.1" 200 12980
+"GET /static/images/5.jpg HTTP/1.1" 404 1662
+"GET /static/images/5.jpg HTTP/1.1" 404 1662
+"GET /jobs HTTP/1.1" 200 12980
+"GET /jobs HTTP/1.1" 200 12980
+"GET /static/images/5.jpg HTTP/1.1" 200 26779
+"GET /static/images/5.jpg HTTP/1.1" 200 26779
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 12980
+"GET /jobs HTTP/1.1" 200 12980
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET /about_us HTTP/1.1" 200 14921
+"GET /about_us HTTP/1.1" 200 14921
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 13216
+"GET /services HTTP/1.1" 200 13216
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /employee/register HTTP/1.1" 200 12468
+"GET /employee/register HTTP/1.1" 200 12468
+"GET /employer/register HTTP/1.1" 200 11536
+"GET /employer/register HTTP/1.1" 200 11536
+"GET /login HTTP/1.1" 200 9922
+"GET /login HTTP/1.1" 200 9922
+"GET /about_us HTTP/1.1" 200 14921
+"GET /about_us HTTP/1.1" 200 14921
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 13216
+"GET /services HTTP/1.1" 200 13216
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /about_us HTTP/1.1" 200 14921
+"GET /about_us HTTP/1.1" 200 14921
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /services HTTP/1.1" 200 13216
+"GET /services HTTP/1.1" 200 13216
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /static/images/3.jpg HTTP/1.1" 304 0
+"GET /about_us HTTP/1.1" 200 14921
+"GET /about_us HTTP/1.1" 200 14921
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 12980
+"GET /jobs HTTP/1.1" 200 12980
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET /employer/register HTTP/1.1" 200 11536
+"GET /employer/register HTTP/1.1" 200 11536
+"POST /employer/register HTTP/1.1" 302 0
+"POST /employer/register HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 9922
+"GET /login HTTP/1.1" 200 9922
+"POST /login HTTP/1.1" 302 0
+"POST /login HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 17610
+"GET / HTTP/1.1" 200 17610
+"GET /static/images/company-1.png HTTP/1.1" 304 0
+"GET /static/images/company-1.png HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 13357
+"GET /jobs HTTP/1.1" 200 13357
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17610
+"GET / HTTP/1.1" 200 17610
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 13357
+"GET /jobs HTTP/1.1" 200 13357
+"GET / HTTP/1.1" 200 17610
+"GET / HTTP/1.1" 200 17610
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 13357
+"GET /jobs HTTP/1.1" 200 13357
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17610
+"GET / HTTP/1.1" 200 17610
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17610
+"GET / HTTP/1.1" 200 17610
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 13357
+"GET /jobs HTTP/1.1" 200 13357
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET /jobs?profession=&location= HTTP/1.1" 200 13357
+"GET /jobs?profession=&location= HTTP/1.1" 200 13357
+"GET /logout HTTP/1.1" 302 0
+"GET /logout HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 10272
+"GET /login HTTP/1.1" 200 10272
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /search?position=&location= HTTP/1.1" 200 12065
+"GET /search?position=&location= HTTP/1.1" 200 12065
+"GET /static/images/4.jpg HTTP/1.1" 304 0
+"GET /static/images/4.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 12980
+"GET /jobs HTTP/1.1" 200 12980
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 12980
+"GET /jobs HTTP/1.1" 200 12980
+"GET /jobs HTTP/1.1" 200 12980
+"GET /jobs HTTP/1.1" 200 12980
+"GET /jobs HTTP/1.1" 200 12980
+"GET /jobs HTTP/1.1" 200 12980
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /search?position=&location= HTTP/1.1" 200 12065
+"GET /search?position=&location= HTTP/1.1" 200 12065
+"GET /search?position=&location= HTTP/1.1" 200 12065
+"GET /search?position=&location= HTTP/1.1" 200 12065
+"GET /static/images/4.jpg HTTP/1.1" 304 0
+"GET /static/images/4.jpg HTTP/1.1" 304 0
+"GET /jobs HTTP/1.1" 200 13648
+"GET /jobs HTTP/1.1" 200 13648
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET /jobs?position=&location= HTTP/1.1" 200 13648
+"GET /jobs?position=&location= HTTP/1.1" 200 13648
+"GET /jobs?position=&location= HTTP/1.1" 200 13648
+"GET /jobs?position=&location= HTTP/1.1" 200 13648
+"GET /jobs?position=&location=Pune%2C+Maharashtra HTTP/1.1" 200 13648
+"GET /jobs?position=&location=Pune%2C+Maharashtra HTTP/1.1" 200 13648
+"GET /jobs HTTP/1.1" 200 13648
+"GET /jobs HTTP/1.1" 200 13648
+"GET /about_us HTTP/1.1" 200 14921
+"GET /about_us HTTP/1.1" 200 14921
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /jobs HTTP/1.1" 200 13648
+"GET /jobs HTTP/1.1" 200 13648
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /search?position=&location= HTTP/1.1" 200 12065
+"GET /search?position=&location= HTTP/1.1" 200 12065
+"GET /search?position=&location= HTTP/1.1" 200 12065
+"GET /search?position=&location= HTTP/1.1" 200 12065
+"GET /search?position=&location= HTTP/1.1" 200 12065
+"GET /search?position=&location= HTTP/1.1" 200 12065
+"GET /search?position=&location=Uttara HTTP/1.1" 200 10771
+"GET /search?position=&location=Uttara HTTP/1.1" 200 10771
+"GET /search?position=&location=Pune%2C+Maharashtra HTTP/1.1" 200 10771
+"GET /search?position=&location=Pune%2C+Maharashtra HTTP/1.1" 200 10771
+"GET /search?position=&location=Pune HTTP/1.1" 200 12065
+"GET /search?position=&location=Pune HTTP/1.1" 200 12065
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /search?position=&location=Uttara HTTP/1.1" 200 10771
+"GET /search?position=&location=Uttara HTTP/1.1" 200 10771
+"GET /search?position=&location=Pune HTTP/1.1" 200 12065
+"GET /search?position=&location=Pune HTTP/1.1" 200 12065
+"GET /search?position=electrician&location= HTTP/1.1" 200 12065
+"GET /search?position=electrician&location= HTTP/1.1" 200 12065
+"GET /search?position=worker&location= HTTP/1.1" 200 10771
+"GET /search?position=worker&location= HTTP/1.1" 200 10771
+"GET /jobs HTTP/1.1" 200 13648
+"GET /jobs HTTP/1.1" 200 13648
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET /static/images/5.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 17233
+"GET / HTTP/1.1" 200 17233
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0
+"GET /static/images/rishi_1.jpg HTTP/1.1" 304 0

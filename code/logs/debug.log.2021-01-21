@@ -1,0 +1,1416 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET / HTTP/1.1" 500 131501
+"GET / HTTP/1.1" 500 131501
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET / HTTP/1.1" 500 131417
+"GET / HTTP/1.1" 500 131417
+"GET / HTTP/1.1" 200 15426
+"GET / HTTP/1.1" 200 15426
+"GET /static/css/jquery.fancybox.min.css HTTP/1.1" 200 12795
+"GET /static/css/jquery.fancybox.min.css HTTP/1.1" 200 12795
+"GET /static/css/bootstrap-select.min.css HTTP/1.1" 200 23049
+"GET /static/css/bootstrap-select.min.css HTTP/1.1" 200 23049
+"GET /static/fonts/line-icons/style.css HTTP/1.1" 200 5790
+"GET /static/css/owl.carousel.min.css HTTP/1.1" 200 3351
+"GET /static/fonts/line-icons/style.css HTTP/1.1" 200 5790
+"GET /static/css/owl.carousel.min.css HTTP/1.1" 200 3351
+"GET /static/fonts/icomoon/style.css HTTP/1.1" 200 79820
+"GET /static/fonts/icomoon/style.css HTTP/1.1" 200 79820
+"GET /static/css/animate.min.css HTTP/1.1" 200 57996
+"GET /static/css/animate.min.css HTTP/1.1" 200 57996
+"GET /static/css/style.css HTTP/1.1" 200 49229
+"GET /static/css/style.css HTTP/1.1" 200 49229
+"GET /static/css/custom-bs.css HTTP/1.1" 200 217120
+"GET /static/css/custom-bs.css HTTP/1.1" 200 217120
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 200 49376
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 200 49376
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 200 307168
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 200 307168
+"GET /about_us HTTP/1.1" 200 14174
+"GET /about_us HTTP/1.1" 200 14174
+"GET /static/images/person_11.jpg HTTP/1.1" 200 10264
+"GET /static/images/person_11.jpg HTTP/1.1" 200 10264
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /static/images/our_team.png HTTP/1.1" 200 332519
+"GET /static/images/our_team.png HTTP/1.1" 200 332519
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /about_us HTTP/1.1" 200 14174
+"GET /about_us HTTP/1.1" 200 14174
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET /images/hero_1.jpg HTTP/1.1" 404 5198
+"GET / HTTP/1.1" 200 15426
+"GET / HTTP/1.1" 200 15426
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/jobsapp/urls.py changed, reloading.
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/jobsapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /0/
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'jobs' with no arguments not found. 1 pattern(s) tried: ['(?P<lang_code>[0-9]+)/jobs$']
+Internal Server Error: /0/
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'jobs' with no arguments not found. 1 pattern(s) tried: ['(?P<lang_code>[0-9]+)/jobs$']
+"GET /0/ HTTP/1.1" 500 154541
+"GET /0/ HTTP/1.1" 500 154541
+Internal Server Error: /0/
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'jobs' with no arguments not found. 1 pattern(s) tried: ['(?P<lang_code>[0-9]+)/jobs$']
+Internal Server Error: /0/
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'jobs' with no arguments not found. 1 pattern(s) tried: ['(?P<lang_code>[0-9]+)/jobs$']
+"GET /0/ HTTP/1.1" 500 179871
+"GET /0/ HTTP/1.1" 500 179871
+"GET /1 HTTP/1.1" 301 0
+"GET /1 HTTP/1.1" 301 0
+Internal Server Error: /1/
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'jobs' with no arguments not found. 1 pattern(s) tried: ['(?P<lang_code>[0-9]+)/jobs$']
+Internal Server Error: /1/
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'jobs' with no arguments not found. 1 pattern(s) tried: ['(?P<lang_code>[0-9]+)/jobs$']
+"GET /1/ HTTP/1.1" 500 179864
+"GET /1/ HTTP/1.1" 500 179864
+"GET /1/ HTTP/1.1" 200 15319
+"GET /1/ HTTP/1.1" 200 15319
+Not Found: /1/favicon.png
+Not Found: /1/favicon.png
+"GET /1/favicon.png HTTP/1.1" 404 5230
+"GET /1/favicon.png HTTP/1.1" 404 5230
+"GET /0/ HTTP/1.1" 200 15319
+"GET /0/ HTTP/1.1" 200 15319
+"GET /0/ HTTP/1.1" 200 16392
+"GET /0/ HTTP/1.1" 200 16392
+"GET /0/ HTTP/1.1" 200 16259
+"GET /0/ HTTP/1.1" 200 16259
+"GET /0/ HTTP/1.1" 200 16261
+"GET /0/ HTTP/1.1" 200 16261
+"GET /2/ HTTP/1.1" 200 16475
+"GET /2/ HTTP/1.1" 200 16475
+"GET /0/ HTTP/1.1" 200 16261
+"GET /0/ HTTP/1.1" 200 16261
+"GET /0/ HTTP/1.1" 200 16261
+"GET /0/ HTTP/1.1" 200 16261
+"GET /0/ HTTP/1.1" 200 16261
+"GET /0/ HTTP/1.1" 200 16261
+"GET /0/ HTTP/1.1" 200 16270
+"GET /0/ HTTP/1.1" 200 16270
+"GET /0/ HTTP/1.1" 200 16289
+"GET /0/ HTTP/1.1" 200 16289
+"GET /0/ HTTP/1.1" 200 16314
+"GET /0/ HTTP/1.1" 200 16314
+"GET /0/ HTTP/1.1" 200 16314
+"GET /0/ HTTP/1.1" 200 16314
+"GET /0/ HTTP/1.1" 200 16319
+"GET /0/ HTTP/1.1" 200 16319
+"GET /0/ HTTP/1.1" 200 16319
+"GET /0/ HTTP/1.1" 200 16319
+"GET /0/ HTTP/1.1" 200 16319
+"GET /0/ HTTP/1.1" 200 16319
+"GET /0/ HTTP/1.1" 200 16319
+"GET /0/ HTTP/1.1" 200 16319
+"GET /0/ HTTP/1.1" 200 16319
+"GET /0/ HTTP/1.1" 200 16319
+"GET /0/ HTTP/1.1" 200 16314
+"GET /0/ HTTP/1.1" 200 16314
+"GET /0/ HTTP/1.1" 200 16314
+"GET /0/ HTTP/1.1" 200 16314
+"GET /0/ HTTP/1.1" 200 16314
+"GET /0/ HTTP/1.1" 200 16314
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /1/ HTTP/1.1" 200 16519
+"GET /1/ HTTP/1.1" 200 16519
+"GET /0/jobs HTTP/1.1" 200 13573
+"GET /0/jobs HTTP/1.1" 200 13573
+"GET /static/images/5.jpg HTTP/1.1" 200 26779
+"GET /static/images/5.jpg HTTP/1.1" 200 26779
+"GET /about_us HTTP/1.1" 200 14112
+"GET /about_us HTTP/1.1" 200 14112
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5242
+"GET /images/hero_1.jpg HTTP/1.1" 404 5242
+"GET /services HTTP/1.1" 200 12816
+"GET /services HTTP/1.1" 200 12816
+"GET /static/images/3.jpg HTTP/1.1" 200 9850
+"GET /static/images/3.jpg HTTP/1.1" 200 9850
+"GET /about_us HTTP/1.1" 200 14112
+"GET /about_us HTTP/1.1" 200 14112
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5242
+"GET /images/hero_1.jpg HTTP/1.1" 404 5242
+"GET /0/jobs HTTP/1.1" 200 13573
+"GET /0/jobs HTTP/1.1" 200 13573
+"GET /about_us HTTP/1.1" 200 14112
+"GET /about_us HTTP/1.1" 200 14112
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5242
+"GET /images/hero_1.jpg HTTP/1.1" 404 5242
+"GET /0/jobs HTTP/1.1" 200 13573
+"GET /0/jobs HTTP/1.1" 200 13573
+Not Found: /
+Not Found: /
+"GET / HTTP/1.1" 404 5173
+"GET / HTTP/1.1" 404 5173
+"GET /0/jobs HTTP/1.1" 200 13575
+"GET /0/jobs HTTP/1.1" 200 13575
+"GET /0/ HTTP/1.1" 200 16316
+"GET /0/ HTTP/1.1" 200 16316
+"GET /0/ HTTP/1.1" 200 16316
+"GET /0/ HTTP/1.1" 200 16316
+"GET /0/ HTTP/1.1" 200 16316
+"GET /0/ HTTP/1.1" 200 16316
+Internal Server Error: /0/jobs
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 527, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 15: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+Internal Server Error: /0/jobs
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'trans'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 527, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 15: 'trans', expected 'endblock'. Did you forget to register or load this tag?
+"GET /0/jobs HTTP/1.1" 500 178534
+"GET /0/jobs HTTP/1.1" 500 178534
+"GET /0/jobs HTTP/1.1" 200 13468
+"GET /0/jobs HTTP/1.1" 200 13468
+"GET /1/jobs HTTP/1.1" 200 13665
+"GET /1/jobs HTTP/1.1" 200 13665
+"GET /1/jobs HTTP/1.1" 200 13683
+"GET /1/jobs HTTP/1.1" 200 13683
+"GET /about_us HTTP/1.1" 200 14114
+"GET /about_us HTTP/1.1" 200 14114
+Not Found: /images/hero_1.jpg
+Not Found: /images/hero_1.jpg
+"GET /images/hero_1.jpg HTTP/1.1" 404 5242
+"GET /images/hero_1.jpg HTTP/1.1" 404 5242
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/accounts/urls.py changed, reloading.
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/accounts/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /about_us
+Not Found: /about_us
+"GET /about_us HTTP/1.1" 404 5259
+"GET /about_us HTTP/1.1" 404 5259
+Internal Server Error: /0/
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'about_us' not found. 'about_us' is not a valid view function or pattern name.
+Internal Server Error: /0/
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'about_us' not found. 'about_us' is not a valid view function or pattern name.
+"GET /0/ HTTP/1.1" 500 151908
+"GET /0/ HTTP/1.1" 500 151908
+Internal Server Error: /0/
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'about_us' not found. 'about_us' is not a valid view function or pattern name.
+Internal Server Error: /0/
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'about_us' not found. 'about_us' is not a valid view function or pattern name.
+"GET /0/ HTTP/1.1" 500 151915
+"GET /0/ HTTP/1.1" 500 151915
+Internal Server Error: /1/
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'about_us' not found. 'about_us' is not a valid view function or pattern name.
+Internal Server Error: /1/
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'about_us' not found. 'about_us' is not a valid view function or pattern name.
+"GET /1/ HTTP/1.1" 500 151908
+"GET /1/ HTTP/1.1" 500 151908
+"GET /0/ HTTP/1.1" 200 16320
+"GET /0/ HTTP/1.1" 200 16320
+"GET /0/jobs HTTP/1.1" 200 13478
+"GET /0/jobs HTTP/1.1" 200 13478
+Internal Server Error: /0/about_us
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: about_us() got an unexpected keyword argument 'lang_code'
+Internal Server Error: /0/about_us
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: about_us() got an unexpected keyword argument 'lang_code'
+"GET /0/about_us HTTP/1.1" 500 67748
+"GET /0/about_us HTTP/1.1" 500 67748
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+"GET /0/services HTTP/1.1" 500 67748
+"GET /0/services HTTP/1.1" 500 67748
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/accounts/views.py changed, reloading.
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+"GET /0/services HTTP/1.1" 500 67728
+"GET /0/services HTTP/1.1" 500 67728
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/accounts/views.py changed, reloading.
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+"GET /0/services HTTP/1.1" 500 67728
+"GET /0/services HTTP/1.1" 500 67728
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+"GET /0/services HTTP/1.1" 500 67728
+"GET /0/services HTTP/1.1" 500 67728
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+"GET /0/services HTTP/1.1" 500 67728
+"GET /0/services HTTP/1.1" 500 67728
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+"GET /0/services HTTP/1.1" 500 67728
+"GET /0/services HTTP/1.1" 500 67728
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+"GET /0/services HTTP/1.1" 500 67728
+"GET /0/services HTTP/1.1" 500 67728
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+"GET /0/services HTTP/1.1" 500 67728
+"GET /0/services HTTP/1.1" 500 67728
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/accounts/views.py changed, reloading.
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+Internal Server Error: /0/services
+Traceback (most recent call last):
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: services() got an unexpected keyword argument 'lang_code'
+"GET /0/services HTTP/1.1" 500 67728
+"GET /0/services HTTP/1.1" 500 67728
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/accounts/views.py changed, reloading.
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /0/services HTTP/1.1" 200 12822
+"GET /0/services HTTP/1.1" 200 12822
+"GET /0/about_us HTTP/1.1" 200 14074
+"GET /0/about_us HTTP/1.1" 200 14074
+Not Found: /0/images/hero_1.jpg
+Not Found: /0/images/hero_1.jpg
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /0/about_us HTTP/1.1" 200 14074
+"GET /0/about_us HTTP/1.1" 200 14074
+Not Found: /0/images/hero_1.jpg
+Not Found: /0/images/hero_1.jpg
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /0/about_us HTTP/1.1" 200 14085
+"GET /0/about_us HTTP/1.1" 200 14085
+Not Found: /0/images/hero_1.jpg
+Not Found: /0/images/hero_1.jpg
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /0/about_us HTTP/1.1" 200 14085
+"GET /0/about_us HTTP/1.1" 200 14085
+Not Found: /0/images/hero_1.jpg
+Not Found: /0/images/hero_1.jpg
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /0/about_us HTTP/1.1" 200 14085
+"GET /0/about_us HTTP/1.1" 200 14085
+Not Found: /0/images/hero_1.jpg
+Not Found: /0/images/hero_1.jpg
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /0/about_us HTTP/1.1" 200 14085
+"GET /0/about_us HTTP/1.1" 200 14085
+Not Found: /0/images/hero_1.jpg
+Not Found: /0/images/hero_1.jpg
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /0/about_us HTTP/1.1" 200 14085
+"GET /0/about_us HTTP/1.1" 200 14085
+Not Found: /0/images/hero_1.jpg
+Not Found: /0/images/hero_1.jpg
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /0/about_us HTTP/1.1" 200 14122
+"GET /0/about_us HTTP/1.1" 200 14122
+Not Found: /0/images/hero_1.jpg
+Not Found: /0/images/hero_1.jpg
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /0/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /1/about_us HTTP/1.1" 200 14122
+"GET /1/about_us HTTP/1.1" 200 14122
+Not Found: /1/images/hero_1.jpg
+Not Found: /1/images/hero_1.jpg
+"GET /1/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /1/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /1/about_us HTTP/1.1" 200 14071
+"GET /1/about_us HTTP/1.1" 200 14071
+Not Found: /1/images/hero_1.jpg
+Not Found: /1/images/hero_1.jpg
+"GET /1/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /1/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /1/about_us HTTP/1.1" 200 14071
+"GET /1/about_us HTTP/1.1" 200 14071
+Not Found: /1/images/hero_1.jpg
+Not Found: /1/images/hero_1.jpg
+"GET /1/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /1/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /1/about_us HTTP/1.1" 200 14071
+"GET /1/about_us HTTP/1.1" 200 14071
+Not Found: /1/images/hero_1.jpg
+Not Found: /1/images/hero_1.jpg
+"GET /1/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /1/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /1/about_us HTTP/1.1" 200 12088
+"GET /1/about_us HTTP/1.1" 200 12088
+Not Found: /1/images/hero_1.jpg
+Not Found: /1/images/hero_1.jpg
+"GET /1/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /1/images/hero_1.jpg HTTP/1.1" 404 5292
+"GET /1/about_us HTTP/1.1" 200 12097
+"GET /1/about_us HTTP/1.1" 200 12097
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /1/about_us HTTP/1.1" 200 12229
+"GET /1/about_us HTTP/1.1" 200 12229
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /1/about_us HTTP/1.1" 200 12679
+"GET /1/about_us HTTP/1.1" 200 12679
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /0/about_us HTTP/1.1" 200 12598
+"GET /0/about_us HTTP/1.1" 200 12598
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /2/about_us HTTP/1.1" 200 12717
+"GET /2/about_us HTTP/1.1" 200 12717
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /0/services HTTP/1.1" 200 12822
+"GET /0/services HTTP/1.1" 200 12822
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /0/services HTTP/1.1" 200 12662
+"GET /0/services HTTP/1.1" 200 12662
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /0/services HTTP/1.1" 200 12662
+"GET /0/services HTTP/1.1" 200 12662
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /1/services HTTP/1.1" 200 12735
+"GET /1/services HTTP/1.1" 200 12735
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /1/services HTTP/1.1" 200 12757
+"GET /1/services HTTP/1.1" 200 12757
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /1/services HTTP/1.1" 200 13281
+"GET /1/services HTTP/1.1" 200 13281
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/css/bootstrap-select.css.map HTTP/1.1" 404 1710
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1716
+"GET /0/ HTTP/1.1" 200 16320
+"GET /0/ HTTP/1.1" 200 16320
+"GET /0/jobs HTTP/1.1" 200 13478
+"GET /0/jobs HTTP/1.1" 200 13478
+"GET /0/about_us HTTP/1.1" 200 12598
+"GET /0/about_us HTTP/1.1" 200 12598
+"GET /0/services HTTP/1.1" 200 12756
+"GET /0/services HTTP/1.1" 200 12756
+"GET /login HTTP/1.1" 200 9862
+"GET /login HTTP/1.1" 200 9862
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /0/ HTTP/1.1" 200 16320
+"GET /0/ HTTP/1.1" 200 16320
+"GET /0/jobs HTTP/1.1" 200 13478
+"GET /0/jobs HTTP/1.1" 200 13478
+"GET /0/ HTTP/1.1" 200 16320
+"GET /0/ HTTP/1.1" 200 16320
+"GET /login HTTP/1.1" 200 9862
+"GET /login HTTP/1.1" 200 9862
+"POST /login HTTP/1.1" 200 10264
+"POST /login HTTP/1.1" 200 10264
+"POST /login HTTP/1.1" 302 0
+"POST /login HTTP/1.1" 302 0
+Not Found: /
+Not Found: /
+"GET / HTTP/1.1" 404 5217
+"GET / HTTP/1.1" 404 5217
+"GET /0/ HTTP/1.1" 200 16697
+"GET /0/ HTTP/1.1" 200 16697
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/accounts/views.py changed, reloading.
+/Users/Gaurish/Desktop/Assignments/SY - Semester 1/Projects/GP2/Workersmeet.com/accounts/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /employer/dashboard/ HTTP/1.1" 200 11266
+"GET /employer/dashboard/ HTTP/1.1" 200 11266
+Not Found: /employer/dashboard/favicon.png
+Not Found: /employer/dashboard/favicon.png
+"GET /employer/dashboard/favicon.png HTTP/1.1" 404 6205
+"GET /employer/dashboard/favicon.png HTTP/1.1" 404 6205
+"GET /0/ HTTP/1.1" 200 16697
+"GET /0/ HTTP/1.1" 200 16697
+"GET /0/ HTTP/1.1" 200 16697
+"GET /0/ HTTP/1.1" 200 16697
+"GET /0/ HTTP/1.1" 200 16697
+"GET /0/ HTTP/1.1" 200 16697
+"GET /1/ HTTP/1.1" 200 16902
+"GET /1/ HTTP/1.1" 200 16902
+"GET /2/ HTTP/1.1" 200 16931
+"GET /2/ HTTP/1.1" 200 16931
+"GET /0/jobs HTTP/1.1" 200 13855
+"GET /0/jobs HTTP/1.1" 200 13855
+"GET /2/jobs HTTP/1.1" 200 14062
+"GET /2/jobs HTTP/1.1" 200 14062
+"GET /jobs/1 HTTP/1.1" 200 11900
+"GET /jobs/1 HTTP/1.1" 200 11900
+Not Found: /jobs/favicon.png
+Not Found: /jobs/favicon.png
+"GET /jobs/favicon.png HTTP/1.1" 404 5283
+"GET /jobs/favicon.png HTTP/1.1" 404 5283
+"GET /0/services HTTP/1.1" 200 13133
+"GET /0/services HTTP/1.1" 200 13133
+"GET /1/services HTTP/1.1" 200 13658
+"GET /1/services HTTP/1.1" 200 13658

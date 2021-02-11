@@ -1,0 +1,246 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load translate %}
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+<section class="home-section section-hero overlay bg-image"
+    style="background-image: url('{% static 'images/Search.jpg' %}');" id="home-section">
+
+    {% comment %} <section class="job-form-section job-form-section--image"> {% endcomment %}
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="job-form-box">
+                        <h2 class="heading">{% trans "Find a job you will love" request.path %}
+                        </h2>
+                        <form id="job-main-form" method="get" action="{% url 'jobs:search' %}" class="job-main-form">
+                            <div class="controls">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5">
+                                        <div class="form-group">
+                                            <label for="profession">{% trans "Position" request.path %}</label>
+                                            <input type="text" id="profession" name="position"
+                                                placeholder="Position you are looking for" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="form-group">
+                                            <label for="location">{% trans "Location" request.path %}</label>
+                                            <input type="text" id="location" name="location"
+                                                placeholder="Any particular location?" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button type="submit"
+                                            class="btn btn-outline-white-primary job-main-form__button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light-gray">
+        <div class="container">
+            <h3 class="heading">{% trans "Featured jobs" request.path %}</h3>
+            <div class="row featured align-items-stretch">
+                {% for job in jobs %}
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="box-image-text bg-visible full-height">
+                        <div class="top">
+                            <a href="#">
+                                <div class="image">
+                                    <img src="{% static 'img/featured1.jpg' %}" alt="" class="img-fluid">
+                                </div>
+                                <div class="bg"></div>
+                                <div class="logo">
+                                    <img src="{% static 'img/company-1.png' %}" alt="" style="max-width: 80px;">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="content">
+                            <h5><a href="{% url 'jobs:jobs-detail' job.id %}">{% trans job.title request.path %}</a></h5>
+                            <p class="featured__details"><i class="fa fa-map-marker job__location"></i>
+                                {% trans job.location request.path %}
+                                {% if job.type == '1' %}
+                                <span class="badge featured-badge badge-success">{% trans "Full time" request.path %}</span>
+                                {% elif job.type == '2' %}
+                                <span class="badge featured-badge badge-primary">{% trans "Part time" request.path %}</span>
+                                {% else %}
+                                <span style="color: #ffffff;" class="badge featured-badge badge-warning">{% trans "Internship" request.path %}</span> {% endif %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section>
+        <!-- <div class="container">
+            <h4 class="heading">{% trans "Trending this month" request.path %}</h4>
+            {% for trending in trendings %}
+            TT
+            <div class="job-listing  job-listing--last">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="{% static 'img/company-1.png' %}" alt="ShareBoardd " class="img-fluid">
+                            </div>
+                            <div class="col-10">
+                                <h4 class="job__title">
+                                    <a href="{% url 'jobs:jobs-detail' trending.id %}">{% trans trending.title request.path %}</a>
+                                </h4>
+                                <p class="job__company">
+                                    {% trans trending.company_name request.path %}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-3 col-lg-2 ml-auto"><i class="fa fa-map-marker job__location"></i>
+                        {% trans trending.location request.path %}
+                    </div>
+                    <div class="col-sm-12 col-md-2 col-lg-1">
+                        <div class="job__star">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Save to favourites"
+                                class="job__star__link">
+                                <i class="fa fa-star"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section> -->
+
+
+    <section class="bg-light testimony-full">
+        <h4 class="font-weight-bold mb-5">{% trans "Team" request.path %}</h4>
+        <div class="owl-carousel single-carousel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <img class="img-fluid mx-auto" src="{% static 'images/yash_img.png' %}" alt="Image">
+                        <blockquote>
+                            <h5>Yash Wasule</h5>
+
+                            <p class="role">Group leader</p>
+                            <P>Second Year</P>
+                            <!--	<p>Branch : Mechanical Engineering</p>-->
+                            <p>DIVISION : ME - D </p>
+                            <p>ROLL NO : 46 </p>
+                            <p>GR NO: 11910793</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <img class="img-fluid mx-auto" src="{% static 'images/rishi_1.jpg' %}" alt="Image">
+                        <blockquote>
+                            <h5>RISHIKESH THAKUR</h5>
+                            <p class="role">Supporter</p>
+
+                            <P>Second Year</P>
+                            <!--	<p>Branch : Mechanical Engineering</p>-->
+                            <p>DIVISION : ME-D </p>
+                            <p>ROLL NO : 32</p>
+                            <p>GR NO: 11910243</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <img class="img-fluid mx-auto" src="{% static 'images/varad_1.jpg' %}" alt="Image">
+                        <blockquote>
+                            <h5>VARAD ASHTEKAR</h5>
+                            <p class="role">Supporter</p>
+                            <P>Second Year</P>
+                            <!--<p>Branch : Electronics and telecommunication</p>-->
+                            <p>DIVISION : ENTC - A </p>
+                            <p>ROLL NO : 27 </p>
+                            <p>GR NO. : 11910301 </p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <blockquote>
+                            <h5>RITESH THAKUR</h5>
+                            <p class="role">Supporter</p>
+                            <p>Second Year</p>
+                            <p>DIVISION : CS-D </p>
+                            <p>ROLL NO : 30</p>
+                            <p>GR NO: 11910559</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <img class="img-fluid mx-auto" src="{% static 'images/dipak_!.jpg' %}" alt="Image">
+                        <blockquote>
+                            <h5>DIPAK YADAV</h5>
+
+                            <p class="role">Supporter</p>
+
+                            <p>Second Year</p>
+
+                            <!-- <p>Branch : Computer Engineering</p>-->
+
+                            <p>DIVISION : CS-D </p>
+
+                            <p>ROLL NO : 48</p>
+
+                            <p>GR NO: 11911162</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="section-divider">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Start searching for your new job now! </p>
+                    <p><a href="{% url 'jobs:jobs' 0 %}" class="btn btn-outline-light">See our job offers </a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% endblock %}

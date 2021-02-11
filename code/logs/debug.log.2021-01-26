@@ -1,0 +1,262 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+"GET / HTTP/1.1" 404 5217
+"GET / HTTP/1.1" 404 5217
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5268
+"GET /favicon.ico HTTP/1.1" 404 5268
+"GET /0 HTTP/1.1" 301 0
+"GET /0 HTTP/1.1" 301 0
+"GET /0/ HTTP/1.1" 200 16697
+"GET /0/ HTTP/1.1" 200 16697
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31396
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31396
+"GET /static/css/style.default.css HTTP/1.1" 200 57176
+"GET /static/css/style.default.css HTTP/1.1" 200 57176
+"GET /static/css/custom.css HTTP/1.1" 200 71
+"GET /static/css/custom.css HTTP/1.1" 200 71
+"GET /static/css/jquery.fancybox.min.css HTTP/1.1" 200 12795
+"GET /static/css/jquery.fancybox.min.css HTTP/1.1" 200 12795
+"GET /static/css/owl.carousel.min.css HTTP/1.1" 200 3351
+"GET /static/css/owl.carousel.min.css HTTP/1.1" 200 3351
+"GET /static/fonts/line-icons/style.css HTTP/1.1" 200 5790
+"GET /static/css/bootstrap-select.min.css HTTP/1.1" 200 23049
+"GET /static/fonts/line-icons/style.css HTTP/1.1" 200 5790
+"GET /static/css/bootstrap-select.min.css HTTP/1.1" 200 23049
+"GET /static/fonts/icomoon/style.css HTTP/1.1" 200 79820
+"GET /static/fonts/icomoon/style.css HTTP/1.1" 200 79820
+"GET /static/css/custom-bs.css HTTP/1.1" 200 217120
+"GET /static/css/custom-bs.css HTTP/1.1" 200 217120
+"GET /static/css/animate.min.css HTTP/1.1" 200 57996
+"GET /static/css/animate.min.css HTTP/1.1" 200 57996
+"GET /static/css/style.css HTTP/1.1" 200 49229
+"GET /static/css/style.css HTTP/1.1" 200 49229
+"GET /static/js/stickyfill.min.js HTTP/1.1" 200 5628
+"GET /static/js/stickyfill.min.js HTTP/1.1" 200 5628
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 200 35446
+"GET /static/js/isotope.pkgd.min.js HTTP/1.1" 200 35446
+"GET /static/js/jquery.min.js HTTP/1.1" 200 86927
+"GET /static/js/jquery.min.js HTTP/1.1" 200 86927
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 78635
+"GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 78635
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 200 68196
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 200 8134
+"GET /static/js/jquery.easing.1.3.js HTTP/1.1" 200 8134
+"GET /static/js/jquery.fancybox.min.js HTTP/1.1" 200 68196
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 200 1391
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 200 9036
+"GET /static/js/jquery.waypoints.min.js HTTP/1.1" 200 9036
+"GET /static/images/company-1.png HTTP/1.1" 200 3494
+"GET /static/js/jquery.animateNumber.min.js HTTP/1.1" 200 1391
+"GET /static/images/company-1.png HTTP/1.1" 200 3494
+"GET /static/js/custom.js HTTP/1.1" 200 6408
+"GET /static/images/logo_5.png HTTP/1.1" 200 6208
+"GET /static/js/custom.js HTTP/1.1" 200 6408
+"GET /static/images/logo_5.png HTTP/1.1" 200 6208
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 200 44342
+"GET /static/js/owl.carousel.min.js HTTP/1.1" 200 44342
+"GET /static/img/company-1.png HTTP/1.1" 200 3494
+"GET /static/img/company-1.png HTTP/1.1" 200 3494
+"GET /static/images/varad_1.jpg HTTP/1.1" 200 14006
+"GET /static/images/dipak_!.jpg HTTP/1.1" 200 14418
+"GET /static/images/dipak_!.jpg HTTP/1.1" 200 14418
+"GET /static/images/rishi_1.jpg HTTP/1.1" 200 28482
+"GET /static/images/varad_1.jpg HTTP/1.1" 200 14006
+"GET /static/images/rishi_1.jpg HTTP/1.1" 200 28482
+"GET /static/img/featured1.jpg HTTP/1.1" 200 121881
+"GET /static/img/featured1.jpg HTTP/1.1" 200 121881
+"GET /static/images/yash_img.png HTTP/1.1" 200 171154
+"GET /static/images/yash_img.png HTTP/1.1" 200 171154
+"GET /static/images/Search.jpg HTTP/1.1" 200 258494
+"GET /static/images/Search.jpg HTTP/1.1" 200 258494
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 200 49376
+"GET /static/fonts/line-icons/fonts/icomoon.ttf?f14h0d HTTP/1.1" 200 49376
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 200 307168
+"GET /static/fonts/icomoon/fonts/icomoon.ttf?10si43 HTTP/1.1" 200 307168
+Not Found: /0/favicon.png
+Not Found: /0/favicon.png
+"GET /0/favicon.png HTTP/1.1" 404 5274
+"GET /0/favicon.png HTTP/1.1" 404 5274
+"GET /logout HTTP/1.1" 302 0
+"GET /logout HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 10212
+"GET /login HTTP/1.1" 200 10212
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 5268
+"GET /favicon.png HTTP/1.1" 404 5268
+"GET /0/ HTTP/1.1" 200 16320
+"GET /0/ HTTP/1.1" 200 16320
+"GET /login HTTP/1.1" 200 9862
+"GET /login HTTP/1.1" 200 9862
+"POST /login HTTP/1.1" 200 10264
+"POST /login HTTP/1.1" 200 10264
+"GET /0/about_us HTTP/1.1" 200 12598
+"GET /0/about_us HTTP/1.1" 200 12598
+"GET /static/images/our_team.png HTTP/1.1" 200 332519
+"GET /static/images/our_team.png HTTP/1.1" 200 332519
+"GET /1/about_us HTTP/1.1" 200 12718
+"GET /1/about_us HTTP/1.1" 200 12718
+Not Found: /1/favicon.png
+Not Found: /1/favicon.png
+"GET /1/favicon.png HTTP/1.1" 404 5274
+"GET /1/favicon.png HTTP/1.1" 404 5274
+"GET /employer/register HTTP/1.1" 200 11480
+"GET /employer/register HTTP/1.1" 200 11480
+Not Found: /employer/favicon.png
+Not Found: /employer/favicon.png
+"GET /employer/favicon.png HTTP/1.1" 404 5295
+"GET /employer/favicon.png HTTP/1.1" 404 5295
+"POST /employer/register HTTP/1.1" 302 0
+"POST /employer/register HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 9862
+"GET /login HTTP/1.1" 200 9862
+"GET /employee/register HTTP/1.1" 200 12412
+"GET /employee/register HTTP/1.1" 200 12412
+Not Found: /employee/favicon.png
+Not Found: /employee/favicon.png
+"GET /employee/favicon.png HTTP/1.1" 404 5629
+"GET /employee/favicon.png HTTP/1.1" 404 5629
+"POST /employee/register HTTP/1.1" 302 0
+"POST /employee/register HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 9862
+"GET /login HTTP/1.1" 200 9862
+"GET /0/ HTTP/1.1" 200 16320
+"GET /0/ HTTP/1.1" 200 16320
+"GET /login HTTP/1.1" 200 9862
+"GET /login HTTP/1.1" 200 9862
+"POST /login HTTP/1.1" 302 0
+"POST /login HTTP/1.1" 302 0
+"GET /0 HTTP/1.1" 301 0
+"GET /0 HTTP/1.1" 301 0
+"GET /0/ HTTP/1.1" 200 16715
+"GET /0/ HTTP/1.1" 200 16715
+"GET /employer/dashboard/ HTTP/1.1" 200 11284
+"GET /employer/dashboard/ HTTP/1.1" 200 11284
+Not Found: /employer/dashboard/favicon.png
+Not Found: /employer/dashboard/favicon.png
+"GET /employer/dashboard/favicon.png HTTP/1.1" 404 6205
+"GET /employer/dashboard/favicon.png HTTP/1.1" 404 6205
+"GET /employer/dashboard/all-applicants HTTP/1.1" 200 9124
+"GET /employer/dashboard/all-applicants HTTP/1.1" 200 9124
+"GET /employer/jobs/create HTTP/1.1" 200 16153
+"GET /employer/jobs/create HTTP/1.1" 200 16153
+"GET /static/vendor/bootstrap-select/css/bootstrap-select.min.css HTTP/1.1" 200 9777
+"GET /static/vendor/bootstrap-select/css/bootstrap-select.min.css HTTP/1.1" 200 9777
+Not Found: /employer/jobs/favicon.png
+Not Found: /employer/jobs/favicon.png
+"GET /employer/jobs/favicon.png HTTP/1.1" 404 5310
+"GET /employer/jobs/favicon.png HTTP/1.1" 404 5310
+"GET /employer/dashboard/ HTTP/1.1" 200 11284
+"GET /employer/dashboard/ HTTP/1.1" 200 11284
+"GET /employer/jobs/create HTTP/1.1" 200 16153
+"GET /employer/jobs/create HTTP/1.1" 200 16153
+"GET /employer/jobs/create HTTP/1.1" 200 16153
+"GET /employer/jobs/create HTTP/1.1" 200 16153
+"POST /employer/jobs/create HTTP/1.1" 302 0
+"POST /employer/jobs/create HTTP/1.1" 302 0
+"GET /employer/dashboard/ HTTP/1.1" 200 13429
+"GET /employer/dashboard/ HTTP/1.1" 200 13429
+"GET /jobs/2 HTTP/1.1" 200 11962
+"GET /jobs/2 HTTP/1.1" 200 11962
+Not Found: /jobs/favicon.png
+Not Found: /jobs/favicon.png
+"GET /jobs/favicon.png HTTP/1.1" 404 5283
+"GET /jobs/favicon.png HTTP/1.1" 404 5283
+"GET /employer/dashboard/ HTTP/1.1" 200 13429
+"GET /employer/dashboard/ HTTP/1.1" 200 13429
+"GET /logout HTTP/1.1" 302 0
+"GET /logout HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 10212
+"GET /login HTTP/1.1" 200 10212
+"POST /login HTTP/1.1" 302 0
+"POST /login HTTP/1.1" 302 0
+"GET /0 HTTP/1.1" 301 0
+"GET /0 HTTP/1.1" 301 0
+"GET /0/ HTTP/1.1" 200 19707
+"GET /0/ HTTP/1.1" 200 19707
+"GET /0/jobs HTTP/1.1" 200 16756
+"GET /0/jobs HTTP/1.1" 200 16756
+"GET /static/images/5.jpg HTTP/1.1" 200 26779
+"GET /static/images/5.jpg HTTP/1.1" 200 26779
+"GET /0/jobs?position=&location=Chennai HTTP/1.1" 200 16756
+"GET /0/jobs?position=&location=Chennai HTTP/1.1" 200 16756
+"GET /jobs/2 HTTP/1.1" 200 12169
+"GET /jobs/2 HTTP/1.1" 200 12169
+"POST /apply-job/2 HTTP/1.1" 302 0
+"POST /apply-job/2 HTTP/1.1" 302 0
+"GET /jobs/2 HTTP/1.1" 200 11782
+"GET /jobs/2 HTTP/1.1" 200 11782
+"GET /employee/my-applications HTTP/1.1" 200 14475
+"GET /employee/my-applications HTTP/1.1" 200 14475
+"GET /jobs/2 HTTP/1.1" 200 11423
+"GET /jobs/2 HTTP/1.1" 200 11423
+"GET /employee/my-applications HTTP/1.1" 200 14475
+"GET /employee/my-applications HTTP/1.1" 200 14475
+"GET /employee/favorites HTTP/1.1" 200 10760
+"GET /employee/favorites HTTP/1.1" 200 10760
+"GET /0/about_us HTTP/1.1" 200 13200
+"GET /0/about_us HTTP/1.1" 200 13200
+"GET /0/jobs HTTP/1.1" 200 16755
+"GET /0/jobs HTTP/1.1" 200 16755
+"GET /0/jobs?position=&location=Pune HTTP/1.1" 200 16755
+"GET /0/jobs?position=&location=Pune HTTP/1.1" 200 16755
+"POST /favorite HTTP/1.1" 200 79
+"POST /favorite HTTP/1.1" 200 79
+"GET /employee/favorites HTTP/1.1" 200 12723
+"GET /employee/favorites HTTP/1.1" 200 12723
+"GET /logout HTTP/1.1" 302 0
+"GET /logout HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 10212
+"GET /login HTTP/1.1" 200 10212
+"POST /login HTTP/1.1" 302 0
+"POST /login HTTP/1.1" 302 0
+"GET /0 HTTP/1.1" 301 0
+"GET /0 HTTP/1.1" 301 0
+"GET /0/ HTTP/1.1" 200 19500
+"GET /0/ HTTP/1.1" 200 19500
+"GET /employer/dashboard/ HTTP/1.1" 200 13429
+"GET /employer/dashboard/ HTTP/1.1" 200 13429
+"GET /employer/dashboard/applicants/2 HTTP/1.1" 200 10237
+"GET /employer/dashboard/applicants/2 HTTP/1.1" 200 10237
+"GET /static/img/avatar.png HTTP/1.1" 200 19773
+"GET /static/img/avatar.png HTTP/1.1" 200 19773
+Not Found: /employer/dashboard/applicants/favicon.png
+Not Found: /employer/dashboard/applicants/favicon.png
+"GET /employer/dashboard/applicants/favicon.png HTTP/1.1" 404 6238
+"GET /employer/dashboard/applicants/favicon.png HTTP/1.1" 404 6238
+"GET /employer/dashboard/ HTTP/1.1" 200 13429
+"GET /employer/dashboard/ HTTP/1.1" 200 13429
+"GET /employer/dashboard/mark-filled/2 HTTP/1.1" 302 0
+"GET /employer/dashboard/mark-filled/2 HTTP/1.1" 302 0
+"GET /employer/dashboard/ HTTP/1.1" 200 13415
+"GET /employer/dashboard/ HTTP/1.1" 200 13415
+"GET /employer/dashboard/mark-filled/2 HTTP/1.1" 302 0
+"GET /employer/dashboard/mark-filled/2 HTTP/1.1" 302 0
+"GET /employer/dashboard/ HTTP/1.1" 200 13415
+"GET /employer/dashboard/ HTTP/1.1" 200 13415
+"GET /employer/dashboard/applicants/2 HTTP/1.1" 200 10237
+"GET /employer/dashboard/applicants/2 HTTP/1.1" 200 10237
+"GET /0/ HTTP/1.1" 200 16715
+"GET /0/ HTTP/1.1" 200 16715
+"GET /1 HTTP/1.1" 301 0
+"GET /1 HTTP/1.1" 301 0
+"GET /1/ HTTP/1.1" 200 16920
+"GET /1/ HTTP/1.1" 200 16920
+"GET /0/jobs HTTP/1.1" 200 15207
+"GET /0/jobs HTTP/1.1" 200 15207
+"GET /2/jobs HTTP/1.1" 200 15522
+"GET /2/jobs HTTP/1.1" 200 15522
+Not Found: /2/favicon.png
+Not Found: /2/favicon.png
+"GET /2/favicon.png HTTP/1.1" 404 5274
+"GET /2/favicon.png HTTP/1.1" 404 5274
